@@ -237,4 +237,9 @@ body {
         gap: 20px;
         align-items: flex-start;
     }
+
+    /* hero section */
+    .hero-slider {
+        flex-direction: column-reverse;
+    }
 }
