@@ -75,10 +75,6 @@ body {
     line-height: 24px;
 }
 
-.nav-meu li a:hover {
-    
-}
-
 /* nav-icon styles */
 .nav-icon {
     display: flex;
@@ -113,5 +109,14 @@ body {
     }
     .header-section-info{
         margin-left: 5px;
+    }
+
+    /* navbar */
+    .navbar {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .nav-menu li {
+        margin-right: 10px;
     }
 }
