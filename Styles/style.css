@@ -177,6 +177,10 @@ body {
     border: none;
     border-bottom: 1px solid #FAFAFA;
 }
+.info-button:hover {
+    background-color: rgb(255, 123, 0);
+    transition: all .5s ease-in;
+}
 
 
 
