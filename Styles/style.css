@@ -187,6 +187,7 @@ body {
     .header-section{
         flex-direction: row-reverse;
         padding-left: 10px;
+        margin-bottom: 20px;
     }
     .header-section-info{
         margin-left: 5px;
@@ -200,6 +201,29 @@ body {
     .nav-menu li {
         margin-right: 10px;
     }
+
+    /* hero-section */
+    .hero-section {
+        flex-direction: column;
+    }
+    .hero-option {
+        margin-left: 50px;
+    }
+    .info-description {
+        width: auto;
+    }
+    .hero-slider {
+        flex-direction: column;
+        margin-top: 20px;
+        padding-top: 15px;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .slider-img img {
+        width: 100%;
+    }
+
 }
 
 /* media query for medium devices */
