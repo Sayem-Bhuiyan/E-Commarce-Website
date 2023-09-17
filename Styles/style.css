@@ -184,6 +184,9 @@ body {
 
 
 /* flash sale section styles */
+.flash-sale-section {
+    margin-bottom: 30px;
+}
 .catagory-section {
     display: flex;
     gap: 15px;
@@ -301,6 +304,22 @@ body {
         width: 100%;
     }
 
+    /* flash sale section media query */
+    .catagory-header {
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
+    }
+    .catagory-header-title {
+        margin-left: 45px;
+    }
+    .countdown-timer {
+        gap: 18px;
+    }
+    .catagory-icon {
+        display: none;
+    }
+
 }
 
 /* media query for medium devices */
@@ -318,5 +337,10 @@ body {
     /* hero section */
     .hero-slider {
         flex-direction: column-reverse;
+    }
+
+    /* flash sale section */
+    .catagory-icon {
+        display: none;
     }
 }
