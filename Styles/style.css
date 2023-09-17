@@ -117,6 +117,7 @@ body {
 
 .hero-section li:hover {
     border-bottom: 2px solid black;
+    transition: all .5s ease-in;
 }
 
 /* hero option */
