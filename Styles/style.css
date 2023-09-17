@@ -209,6 +209,15 @@ body {
 .catagory-header {
     display: flex;
     align-items: center;
+    justify-content: space-around;
+}
+
+/* catagory header title */
+.catagory-header-title {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 1.44px;
 }
 /* countdown-timer styles */
 .countdown-timer{
@@ -235,6 +244,15 @@ body {
 #seperator {
     color: #E07575;
     font-size: 25px;
+}
+
+/* catagory icon */
+.catagory-icon {
+    font-size: 2rem;
+}
+
+.catagory-icon > i {
+    margin-left: 60px;
 }
 
 
