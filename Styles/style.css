@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    border: border-box;
+}
+
+/* shared styles */
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* header styles */
+/* header section styles */
+.header-section {
+    height: 48px;
+    background-color: #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-section-info {
+    color: #FAFAFA;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+.header-section-link {
+    color: #FAFAFA;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-left: 10px;
+}
+.language-select {
+    color: #FAFAFA;
+    background-color: #000;
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
