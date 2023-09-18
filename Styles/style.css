@@ -359,6 +359,26 @@ body {
     font-weight: 700px;
 }
 
+/* primary button styles */
+.primary-btn {
+    display: flex;
+    justify-content: center;
+}
+.primary-button {
+    margin-top: 60px;
+    margin-bottom: 140px;
+    padding: 16px 48px;
+    background-color: #DB4444;
+    border: none;
+    border-radius: 4px;
+}
+.primary-button a {
+    color: #FAFAFA;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
 /* Responsive styles */
 
 /* media query for mobile device */
