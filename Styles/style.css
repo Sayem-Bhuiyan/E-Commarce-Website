@@ -221,6 +221,7 @@ body {
     font-weight: 600;
     line-height: 48px;
     letter-spacing: 1.44px;
+    margin-left: -20px;
 }
 /* countdown-timer styles */
 .countdown-timer{
@@ -261,9 +262,17 @@ body {
 /* peoduct-sectioin */
 .product-section {
     display: flex;
-    flex-direction: column;
+    gap: 15px;
+    margin-top: 40px;
+    margin-left: 60px;
 }
-
+.product {
+    background-color: #F5F5F5;
+    width: 270px;
+    height: 250px;
+    padding: 12px;
+    margin-bottom: 15px;
+}
 .discount-option {
     padding: 4px 12px;
     background-color: #DB4444;
@@ -276,6 +285,31 @@ body {
 .product-img {
     margin-left: 40px;
     margin-bottom: 60px;
+}
+/* .product-icon {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    position: relative;
+    margin-left: 221px;
+    margin-top: -240px;
+
+} */
+.product-icon {
+    position: absolute;
+    margin-left: 230px;
+    margin-top: -20px;
+    
+}
+.product-icon i{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
 .product-title {
