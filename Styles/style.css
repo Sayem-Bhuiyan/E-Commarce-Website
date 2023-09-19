@@ -212,7 +212,8 @@ body {
 .catagory-header {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: auto 75px;
 }
 
 /* catagory header title */
