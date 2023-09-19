@@ -410,11 +410,27 @@ body {
 
 }
 
+/* catagory icon-box hover styles */
+.catagory-icon-box:hover {
+    background-color: #db4444;
+    color: white;
+    transition: background-color .6s ease-in;
+}
+
 .catagory-icon-box a {
     color: black;
 }
+.catagory-icon-box a:hover {
+    color: rgba(255, 255, 255, 0.904);
+}
+
 .catagory-icon-box a > i {
     font-size: 2rem;
+}
+.catagory-icon-name {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
 }
 hr {
     margin: 0 60px;
