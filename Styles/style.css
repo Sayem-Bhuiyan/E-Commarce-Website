@@ -447,9 +447,7 @@ hr {
 }
 
 /* catagory button */
-.catagory-btn {
-    
-}
+
 .catagory-button {
     padding: 16px 48px;
     background-color: #DB4444;
@@ -546,10 +544,15 @@ hr {
         grid-template-columns: repeat(2, 1fr);
     }
 
+    /* catagory button */
+    .catagory-button {
+        margin-left: 45px;
+    }
+
 }
 
 /* media query for medium devices */
-@media screen and (min-width: 576px) and (max-width: 960px){
+@media screen and (min-width: 576px) and (max-width: 992px){
     .navbar {
         display: grid;
         grid-template-areas:
