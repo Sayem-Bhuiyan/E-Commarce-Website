@@ -7,6 +7,7 @@
 
 body {
     font-family: 'Inter', sans-serif;
+    width: 100%;
 }
 
 /* header styles */
@@ -411,6 +412,9 @@ body {
 }
 
 /* catagory icon-box hover styles */
+.catagory-icon-box {
+    box-shadow: 1px 5px 3px -5px rgb(3, 4, -7);
+}
 .catagory-icon-box:hover {
     background-color: #db4444;
     color: white;
@@ -507,6 +511,12 @@ hr {
         margin-left: 35px;
     }
 
+    /* catagroy icon container */
+    .catagory-icon-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
 }
 
 /* media query for medium devices */
@@ -536,5 +546,11 @@ hr {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         margin-left: 100px;
+    }
+
+    /* catagory icon container */
+    .catagory-icon-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
     }
 }
