@@ -269,10 +269,15 @@ body {
     box-shadow: 1px 6px 12px -5px rgb(12, 8, 8);
     transition: all .2s ease-in;
 }
-.product-section {
+/* .product-section {
     display: flex;
     gap: 30px;
     margin-top: 40px;
+    margin-left: 60px;
+} */
+.product-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     margin-left: 60px;
 }
 .product {
@@ -506,9 +511,8 @@ hr {
     /* product section */
 
     .product-section{
-        flex-direction: column;
-        justify-content: center;
-        margin-left: 35px;
+        gap: 20px;
+        grid-template-columns: repeat(1, 1fr);
     }
 
     /* catagroy icon container */
