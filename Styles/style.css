@@ -382,6 +382,11 @@ body {
     font-weight: 600;
     line-height: 24px;
 }
+.primary-button:hover {
+    background-color: rgb(255, 136, 0);
+    letter-spacing: 1.2px;
+    transition: all 0.5s linear 0.4s;
+}
 /* Responsive styles */
 
 /* media query for mobile device */
@@ -428,16 +433,20 @@ body {
     }
 
     /* flash sale section media query */
+    .catagory-section {
+        margin-left: 40px;
+    }
     .catagory-header {
         flex-direction: column;
-        gap: 20px;
+        gap: 15px;
         align-items: flex-start;
+        margin-left: -5px;
     }
     .catagory-header-title {
         margin-left: 45px;
     }
     .countdown-timer {
-        gap: 18px;
+        gap: 12px;
     }
     .catagory-icon {
         display: none;
@@ -447,7 +456,7 @@ body {
     .product-section{
         flex-direction: column;
         justify-content: center;
-        margin-left: 65px;
+        margin-left: 35px;
     }
 
 }
