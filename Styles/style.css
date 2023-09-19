@@ -467,6 +467,85 @@ hr {
     line-height: 24px;
 }
 
+/* hero section 02 styles */
+.hero-section2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000;
+    margin: auto 60px;
+    margin-top: 100px;
+    padding: 30px 50px;
+}
+.hero-section2-name {
+    color: #0F6;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+.hero-section2-title {
+    width: 450px;
+    height: 120px;
+    color: #FAFAFA;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 1.92px;
+    margin-bottom: 30px;
+}
+.hero-countdown {
+    display: flex;
+    gap: 25px;
+    margin-left: -40px;
+    margin-bottom: 30px;
+}
+.hero-countdown li {
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+}
+.hero-countdown li span {
+    display: block;
+}
+.hero-button {
+    padding: 16px 48px;
+    background-color: #0F6;
+    border: none;
+    border-radius: 5px;
+}
+.hero-button a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Responsive styles */
 /* media query for mobile device */
 @media screen and (max-width: 576px) {
@@ -584,5 +663,11 @@ hr {
     .catagory-icon-container {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
+    }
+
+    /* second hero section styles */
+    .hero-section2 {
+        flex-direction: column-reverse;
+        gap: 40px;
     }
 }
