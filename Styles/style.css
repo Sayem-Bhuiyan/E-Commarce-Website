@@ -187,6 +187,7 @@ body {
 /* flash sale section styles */
 .flash-sale-section {
     margin-bottom: 30px;
+    margin-top: 110px;
 }
 .catagory-section {
     display: flex;
@@ -376,7 +377,6 @@ body {
 }
 .primary-button {
     margin-top: 60px;
-    margin-bottom: 140px;
     padding: 16px 48px;
     background-color: #DB4444;
     border: none;
@@ -445,6 +445,30 @@ hr {
     margin: 0 60px;
     opacity: 0.3;
 }
+
+/* catagory button */
+.catagory-btn {
+    
+}
+.catagory-button {
+    padding: 16px 48px;
+    background-color: #DB4444;
+    border: none;
+    border-radius: 5px;
+}
+.catagory-button:hover {
+    background-color: rgb(255, 136, 0);
+    letter-spacing: 1.2px;
+    transition: all 0.5s linear 0.4s;
+}
+.catagory-button a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
 /* Responsive styles */
 /* media query for mobile device */
 @media screen and (max-width: 576px) {
