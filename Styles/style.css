@@ -719,10 +719,12 @@ hr {
 
 
 /* footer section styles */
-.footer-section {
+footer {
     height: 440px;
     width: 100%;
     background-color: #000;
+}
+.footer-section {
     color: #fafafaef;
     display: flex;
     justify-content: space-evenly;
