@@ -982,7 +982,15 @@ hr {
     .column-img1 {
         margin-top: 38px;
     }
-}
+
+    /* service section media query */
+    .service-section {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 30px;
+        margin: 70px 60px;
+    }
+    
 
 
 
