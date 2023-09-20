@@ -858,6 +858,9 @@ footer {
         flex-direction: column;
         gap: 10px;
     }
+    .nav-link {
+        display: none;
+    }
     .nav-menu li {
         margin-right: 10px;
     }
