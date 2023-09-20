@@ -86,6 +86,7 @@ input:focus {
 @media screen and (max-width: 576px) {
     .create-account-section {
         flex-direction: column;
+        gap: 50px;
     }
     .account-img-container {
         height: 450px;
@@ -93,5 +94,31 @@ input:focus {
     }
     .account-img {
         width: 400px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive styles for medium devices */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .create-account-section {
+        gap: 50px;
+    }
+    .account-img-container {
+        height: 450px;
+    }
+    .account-img {
+        width: 449px;
     }
 }
