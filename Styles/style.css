@@ -265,6 +265,7 @@ body {
 /* peoduct-sectioin */
 .product-container {
     width: 270px;
+    margin-bottom: 40px;
 }
 .product-container:hover {
     box-shadow: 1px 6px 12px -5px rgb(12, 8, 8);
