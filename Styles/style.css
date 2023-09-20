@@ -87,11 +87,14 @@ body {
     align-items: center;
     grid-area: nav-icon;
 }
-
-.nav-icon > i {
+.nav-icon a {
+    color: #000;
+}
+.nav-icon a > i {
     font-size: 1.2rem;
     margin-left: 20px;
 }
+
 
 .nav-search input {
     padding: 7px 10px 7px 20px;
@@ -730,7 +733,7 @@ footer {
     display: flex;
     justify-content: space-evenly;
     padding-top: 80px;
-    margin-bottom: 70px;
+    margin-bottom: 65px;
 }
 .footer-title {
     font-size: 24px;
@@ -773,12 +776,18 @@ footer {
     list-style-type: none;
     margin-bottom: 16px;
 }
+
 .footer-menu > li > a {
     text-decoration: none;
     color: #fafafae5;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
+    border-bottom: 2px solid transparent;
+}
+.footer-menu >li > a:hover {
+    border-bottom: 2px solid #F5F5F5;
+    transition: all .4s ease-in;
 }
 .link-description {
     font-size: 12px;
