@@ -626,6 +626,9 @@ hr {
     margin-top: 35px;
     margin-left: 40px;
 }
+.featured-info {
+    z-index: 5;
+}
 
 
 
