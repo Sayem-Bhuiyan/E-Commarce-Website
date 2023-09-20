@@ -66,3 +66,32 @@ input:focus {
     opacity: 0.7;
     margin-left: 10px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive styles */
+@media screen and (max-width: 576px) {
+    .create-account-section {
+        flex-direction: column;
+    }
+    .account-img-container {
+        height: 450px;
+        width: 100%;
+    }
+    .account-img {
+        width: 400px;
+    }
+}
