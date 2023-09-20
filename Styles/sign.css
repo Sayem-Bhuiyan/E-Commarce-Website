@@ -1,4 +1,7 @@
 /* createa an account section styles */
+.nav-link {
+    display: none;
+}
 .create-account-section {
     display: flex;
     /* justify-content: center; */
