@@ -710,6 +710,12 @@ hr {
     justify-content: center;
     align-items: center;
 }
+.service-header {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    margin-bottom: 8px;
+}
 
 
 
