@@ -272,12 +272,6 @@ body {
     box-shadow: 1px 6px 12px -5px rgb(12, 8, 8);
     transition: all .2s ease-in;
 }
-/* .product-section {
-    display: flex;
-    gap: 30px;
-    margin-top: 40px;
-    margin-left: 60px;
-} */
 .product-section {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -724,6 +718,13 @@ hr {
 }
 
 
+/* footer section styles */
+.footer-section {
+    height: 440px;
+    width: 100%;
+    background-color: #000;
+}
+
 
 
 
@@ -990,24 +991,4 @@ hr {
         gap: 30px;
         margin: 70px 60px;
     }
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
