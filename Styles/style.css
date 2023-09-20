@@ -298,6 +298,18 @@ body {
     margin-left: 10px;
     margin-bottom: 20px;
 }
+.no-discount {
+    display: none;
+}
+.new-product {
+    padding: 4px 12px;
+    background-color: #0F6;
+    border-radius: 4px;
+    color: #fff;
+    width: 40px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
 .img-box {
     display: flex;
     justify-content: center;
@@ -354,10 +366,10 @@ body {
 }
 .delete-price {
     color: #00000077;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 24px;
     font-weight: 600;
-    text-decoration-line: strikethrough;
+    margin-left: 5px;
 }
 .product-review {
     display: flex;
