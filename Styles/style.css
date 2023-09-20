@@ -568,6 +568,7 @@ hr {
     width: 570px;
     height: 600px;
     background-color: #000;
+    border-radius: 5px;
 }
 .column-img1 {
     background-image: url('../Images/featured-img/column-img1.png');
@@ -577,7 +578,6 @@ hr {
     background-position: center;
     margin-top: 89px;
     margin-left: 40px;
-    border-radius: 5px;
 }
 .featured-column2 {
     display: grid;
@@ -635,7 +635,7 @@ hr {
     margin-left: -100px;   
     margin-top: 131px;
 }
-.featured-info3, .featured-info {
+.featured-info3, .featured-info4 {
     position: absolute;
     margin-top: 125px;
     margin-left: -5px;
