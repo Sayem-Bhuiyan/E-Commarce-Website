@@ -903,6 +903,13 @@ hr {
         height: 200px;
         width: 164px;
     }
+
+    /* service section media query */
+    .service-section {
+        flex-direction: column;
+        gap: 30px;
+        margin: 70px auto;
+    }
 }
 
 
