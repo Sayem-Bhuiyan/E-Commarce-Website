@@ -5,6 +5,7 @@
     /* justify-content: center; */
     align-items: center;
     gap: 100px;
+    margin-bottom: 80px;
 }
 .account-img-container {
     height: 500px;
@@ -93,7 +94,7 @@ input:focus {
         width: 100%;
     }
     .account-img {
-        width: 400px;
+        width: 360px;
     }
 }
 
