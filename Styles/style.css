@@ -722,6 +722,7 @@ hr {
 footer {
     height: 440px;
     width: 100%;
+    border-radius: 10px;
     background-color: #000;
 }
 .footer-section {
@@ -1001,6 +1002,17 @@ footer {
         gap: 30px;
         margin: 70px auto;
     }
+
+    /* footer section media query */
+    footer {
+        width: auto;
+        height: auto;
+    }
+    .footer-section {
+        flex-direction: column;
+        gap: 40px;
+        margin-left: 80px;
+    }
 }
 
 
@@ -1080,5 +1092,17 @@ footer {
         grid-template-columns: repeat(2,1fr);
         gap: 30px;
         margin: 70px 60px;
+    }
+
+    /* footer section media query */
+    footer {
+        height: auto;
+        width: auto;
+    }
+    .footer-section{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+        margin-left: 80px;
     }
 }
