@@ -1,0 +1,18 @@
+
+/* createa an account section styles */
+.create-account-section {
+    display: flex;
+}
+.account-img-container {
+    height: 500px;
+    width: 50%;
+    border-radius: 10px;
+    background-color: #CBE4E8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+}
