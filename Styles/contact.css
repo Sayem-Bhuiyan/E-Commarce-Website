@@ -1,0 +1,23 @@
+/* about section styles */
+.contact-link {
+    margin-left: 82px;
+    margin-bottom: 80px;
+}
+
+.contact-link a {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    text-decoration: none;
+}
+
+.contact-link span {
+    margin: auto 5px;
+}
+
+.home {
+    color: #00000041;
+}
+.contact {
+    color: #000;
+}
