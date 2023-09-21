@@ -1,4 +1,10 @@
 /* about section styles */
+.contact-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-bottom: 60px;
+}
 .contact-link {
     margin-left: 82px;
     margin-bottom: 80px;
@@ -20,4 +26,54 @@
 }
 .contact {
     color: #000;
+}
+
+/* contact section */
+.contact-info-icon {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.contact-info-icon > i {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #DB4444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.contact-info-title {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.contact-info-description {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    margin-bottom: 16px;
+}
+
+#contact-page-horizontal {
+    margin: 32px 0;
+}
+
+.contact-feedback form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.contact-feedback form > textarea {
+    padding: 10px 12px;
+    color: #000000af;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 30px;;
 }

@@ -53,6 +53,7 @@ a .input-button {
     border-radius: 5px;
     color: #fff;
     padding: 12px 48px;
+    border: none;
 
 }
 .alreadyHave {
