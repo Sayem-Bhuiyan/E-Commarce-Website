@@ -77,3 +77,28 @@
     line-height: 24px;
     margin-bottom: 30px;;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive styles */
+
+/* Media query for mobile divices */
+@media screen and (max-width: 576px) {
+    .contact-section {
+        flex-direction: column;
+        margin-left: 10px;
+    }
+}
