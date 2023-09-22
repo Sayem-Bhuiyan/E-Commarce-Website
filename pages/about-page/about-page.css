@@ -19,3 +19,114 @@
     font-weight: 400;
     line-height: 26px;
 }
+
+
+/* about our site section */
+.about-site-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 100px auto;
+}
+.about-our-site {
+    height: 200px;
+    width: 240px;
+    border-radius: 5px;
+    border: .7px solid rgba(0, 0, 0, 0.493);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-site-icon {
+    height: 80px;
+    width: 80px;
+    background-color: rgba(128, 128, 128, 0.829);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.about-site-icon i {
+    font-size: 1.5rem;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-site-title {
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 1.28px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+.about-site-description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/* hover style  */
+
+.about-our-site:hover {
+    background-color: #DB4444;
+}
+.about-our-site:hover .about-site-icon {
+    background-color: rgba(245, 245, 245, 0.637);
+}
+.about-our-site:hover .about-site-icon >i {
+    background-color: white;
+    color: black
+}
+
+
+/* about site owner section */
+.site-owner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.owner-img {
+    height: 430px;
+    width: 370px;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 32px;
+}
+.owner-name {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 1.28px;
+    margin-bottom: 8px;
+}
+.owner-position {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+.owner-social-link {
+    display: flex;
+    gap: 20px;
+}
+
+.owner-social-link a {
+    color: black;
+}
+.owner-social-link a > i {
+    font-size: 1.3rem;
+}
