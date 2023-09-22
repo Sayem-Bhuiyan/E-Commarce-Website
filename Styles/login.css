@@ -15,3 +15,6 @@
     line-height: 24px;
     text-decoration: none;
 }
+.nav-link {
+    display: none;
+}
