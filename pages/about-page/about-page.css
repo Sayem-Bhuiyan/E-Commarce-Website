@@ -130,3 +130,78 @@
 .owner-social-link a > i {
     font-size: 1.3rem;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive media query */
+@media screen and (max-width: 576px) {
+    /* about story section */
+    .about-story-section {
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    .story-description {
+        width: 350px;
+    }
+    .about-story-img img {
+        width: 350px;
+    }
+
+    /* about site sectio  */
+    .about-site-section {
+        flex-wrap: wrap;
+    }
+
+    /* about-site-owner seciton */
+    .site-owner {
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive for medium devices */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .about-story-section {
+        flex-direction: column;
+    }
+    .about-story-img img {
+        width: 600px;
+    }
+    .about-site-section {
+        flex-wrap: wrap;
+    }
+    .site-owner {
+        flex-wrap: wrap;
+    }
+}
